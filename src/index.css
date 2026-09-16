@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .status-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: .5; }
+  }
+
+  .map-grid {
+    background-color: #e2e8f0;
+    background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(226, 232, 240, 0.8);
+  }
+
+  .glass-card-dark {
+    background: rgba(15, 23, 42, 0.88);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(51, 65, 85, 0.6);
+  }
+
+  /* Clean Map Display - Suppress intrusive watermark containers if clean mode is enabled */
+  .clean-map-tiles .leaflet-control-attribution,
+  .leaflet-container.clean-map-tiles .leaflet-control-attribution,
+  .hide-map-watermarks .leaflet-control-attribution {
+    display: none !important;
+  }
+}
+

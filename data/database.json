@@ -1,0 +1,31 @@
+{
+  "users": [],
+  "sessions": [],
+  "locationRecords": [],
+  "visits": [],
+  "photos": [],
+  "geofences": [],
+  "settings": {
+    "gpsTrackingIntervalSeconds": 15,
+    "minMovementDistanceMeters": 20,
+    "maxAcceptableGpsAccuracyMeters": 50,
+    "maxInactiveDurationMinutes": 30,
+    "suspiciousSpeedThresholdKmh": 120,
+    "workingHoursStart": "09:00",
+    "workingHoursEnd": "18:00",
+    "requirePhotoForCheckIn": true,
+    "requirePhotoForLocationUpdate": false,
+    "requirePhotoForCheckOut": true,
+    "autoTrackingEnabled": true,
+    "cameraQuality": "medium"
+  },
+  "alerts": [],
+  "companies": [],
+  "branches": [],
+  "departments": [],
+  "designations": [],
+  "shifts": [],
+  "roles": [],
+  "leaves": [],
+  "tasks": []
+}

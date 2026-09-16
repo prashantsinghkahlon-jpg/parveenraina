@@ -1,0 +1,11 @@
+{
+  "name": "FieldTrack Pro - GPS Tracking & Visit Verification",
+  "description": "Real-time Field Executive GPS tracking, live camera visit verification, offline-first IndexedDB synchronization, route playback, and Project Manager monitoring dashboard.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
